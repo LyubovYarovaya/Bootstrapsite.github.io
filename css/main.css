@@ -1,0 +1,193 @@
+/* спецификация */
+body {
+	font-family: 'PT Sans', sans-serif;
+}
+ul, li {
+	display: block;
+	padding: 0;
+	margin: 0;
+}
+h1, h2, h3, h4, h5 {
+	font-weight: 700;
+	color: #010101;
+}
+h3 {
+	font-weight: 400;
+}
+h2{
+	text-align: center;
+}
+header {
+	background: #fcdb00;
+	color: #010101;
+	padding-top: 50px;
+	padding-bottom: 105px;
+}
+
+.menu {
+	margin-top: 10px;
+}
+.menu__item {
+	margin: 0 57px;
+}
+.menu__item a {
+	font-size: 22px;
+	font-weight: 700;
+	color: #010101;
+	list-style-type: none;
+}
+.offer {
+	margin-top: 117px;
+}
+.offer__title {
+	font-size: 32px;
+	margin-bottom: 15px;
+}
+.offer__intro {
+	font-size: 20px;
+	line-height: 1.3em;
+	
+}
+.offer__text {
+	font-size: 16px;
+	margin-top: 15px;
+	color: #555555;
+	width: 400px;
+}
+.icons {}
+.icons__item {
+	margin-right: 30px;
+}
+.icons__item a {
+	color: #010101;
+	font-size: 42px;
+	transition: all .3s ease;
+	
+}
+.icons__item a:hover {
+	text-decoration: none;
+	font-size: 44px;
+	color: #656839;
+}
+.ipad {
+	display: block;
+	margin: 60px auto 0;
+}
+.title {
+	padding-top: 100px;
+	padding-bottom: 70px;
+	text-align: center;
+}
+.title__main {
+	font-size: 32px;
+}
+.title__text {
+	font-size: 20px;
+	width: 780px;
+	margin: 0 auto;
+}
+.feature {
+	margin-bottom: 65px;
+}
+.feature__icon {
+	font-size: 50px;
+	margin-right: 37px;
+	color: #010101;
+}
+.feature__block {}
+.feature__title {}
+.feature__text {
+	color: #929292;
+}
+.touch {
+	background: #010101;
+	color: #fff;
+}
+.yellow {
+	color: #fcdb00;
+}
+.form {
+	text-align: center;
+}
+.form__input {
+	background: #fff;
+	font-size: 16px;
+	font-family: 'PT Sans', sans-serif;
+	border-radius: 5px;
+	width: 500px;
+	padding: 15px 0;
+	margin-right: 21px;
+	border: 0;
+	padding-left: 23px;
+	outline: none;
+}
+.form__email {}
+.form__btn {
+	background: #fcdb00;
+	font-size: 16px;
+	font-family: 'PT Sans', sans-serif;
+	font-weight: 700;
+	border-radius: 5px;
+	width: 500px;
+	padding: 15px 0;
+	border: 0;
+	width: 126px;
+	cursor: pointer;
+	outline: none;
+}
+.footer {
+	background: #010101;
+	padding: 50px 0 94px;
+}
+.credits {
+	color: #fff;
+	font-size: 16px;
+	text-align: center;
+	width: 184px;
+	margin: 0 auto;
+}
+/* Медиазапросы */
+@media screen and (max-width: 990px) {
+	.logo {
+		display: block;
+		margin: 0 auto;
+	}
+	.offer {
+		text-align: center;
+		
+	}
+	.offer__text {
+		margin: 0 auto;
+		width: auto;
+	}
+	.icons {
+		justify-content: center;
+	}
+	.icons__item:nth-child(3){
+		margin-right: 0;
+	}
+	.form__input {
+		width: 100%;
+		margin-right: 0;
+	}
+	.form__btn {
+		margin-top: 20px;
+		width: 100%;
+	}
+	.title__text {
+		width: 100%;
+	}
+}
+@media screen and (max-width: 776px) {
+	.ipad {
+		width: 100%;
+	}
+	.menu {
+		flex-direction: column;
+	}
+}
+
+
+
+
+
